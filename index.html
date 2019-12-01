@@ -13,7 +13,10 @@
     <title>Karthigai Fm</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="./img/core-img/viber_image_2019-11-23_19-55-46.png" />
+    <link
+      rel="icon"
+      href="./img/core-img/viber_image_2019-11-23_19-55-46.png"
+    />
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css" />
@@ -69,7 +72,6 @@
                 <ul id="nav">
                   <li class="current-item"><a href="./index.html">Home</a></li>
                   <li><a href="./about.html">About</a></li>
-                  
                 </ul>
 
                 <!-- Top Search Area -->
@@ -160,6 +162,7 @@
                   </div>
                 </div>
                 <!-- Welcome Music Area -->
+                
                 <div
                   class="poca-music-area mt-100 d-flex align-items-center flex-wrap"
                   data-animation="fadeInUp"
@@ -168,64 +171,96 @@
                   <div class="poca-music-thumbnail">
                     <img src="./img/bg-img/4.jpg" alt="" />
                   </div>
-                  
+
                   <div class="" style="padding:40px auto ;">
-                    <span class="music-published-date"><script> document.write(new Date().toLocaleDateString()); </script>
-</span>
+                    <span class="music-published-date"
+                      ><script>
+                        document.write(new Date().toLocaleDateString());
+                      </script>
+                    </span>
                     <h2 style="font-family: 'Meera Inimai', sans-serif;">
                       Karthigai FM - Stay Tuned With Us..
                     </h2>
                     <div class="music-meta-data">
-                      <p>
+                      <p style="margin-left:20px;">
                         <!-- | -->
                         <!-- <a href="#" class="music-duration">00:02:56</a> -->
+                      
+                          
+                          <!-- Music Player -->
+                          Select Stream
+                          <select class="stream" id="stream">
+                            <option value="64">64 kbps</option>
+                            <option value="128">128 kbps</option>
+                          
+                          </select>
+                        
                       </p>
                     </div>
 
+                       
+
                     <!-- Music Player -->
-                    <div class="poca-music-player "  >
-                  <audio  preload="none"  controls="controls" src="https://karthigaifm.radioca.st/streams/64kbps"
-                    type="audio/mpeg" />
-                 
-                  </div>
+                    <div class="poca-music-player " >
+
+                      
+                      <audio class="st-64"
+                        preload="none"
+                        controls="controls"
+                        src="https://karthigaifm.radioca.st/streams/64kbps"
+                        type="audio/mpeg" 
+                      />
+                    </div>
+
+                    <div class="poca-music-player">
+                
+                      <audio style="display: none;" class="st-128" preload="none" controls="controls" src="https://karthigaifm.radioca.st/streams/128kbps" type="audio/mpeg" />
+                    </div>
+                
+
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        
-
       </div>
     </section>
     <!-- ***** Welcome Area End ***** -->
 
+   
+
+
     <!-- ***** Latest Episodes Area Start ***** -->
-   <section class="poca-latest-epiosodes section-padding-80">
-    <div class="container">
-      <div class="row">
-        <!-- Section Heading -->
-        <div class="col-12">
-          <div class="section-heading text-center " align="center">
-            <h2>Latest News</h2>
-            <div class="line mb-50"></div>
+    <section class="poca-latest-epiosodes section-padding-80">
+      <div class="container">
+        <div class="row">
+          <!-- Section Heading -->
+          <div class="col-12">
+            <div class="section-heading text-center " align="center">
+              <h2>Latest News</h2>
+              <div class="line mb-50"></div>
 
               <div align="center" class="mt-30">
-                <iframe id="fb"
-                  src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkarthigaifm&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=2034467136619911"
-                  width="340" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
-                  allow="encrypted-media"></iframe>
-
+                <iframe
+                  id="fb"
+                  src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkarthigaifm&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId=2034467136619911"
+                  width="340"
+                  height="370"
+                  style="border:none;overflow:hidden"
+                  scrolling="no"
+                  frameborder="0"
+                  allowTransparency="true"
+                  allow="encrypted-media"
+                ></iframe>
               </div>
+            </div>
           </div>
         </div>
       </div>
-    </div> 
-</section>
-
+    </section>
 
     <!-- Projects Menu -->
- <!-- <div class="container">
+    <!-- <div class="container">
       <div class="poca-projects-menu mb-30 wow fadeInUp" data-wow-delay="0.3s">
         <div class="text-center portfolio-menu">
           <button class="btn active" data-filter="*">All</button>
@@ -237,11 +272,11 @@
       </div>
     </div> -->
 
-     <!-- <div class="container"> -->
-      <!-- <div class="row poca-portfolio"> -->
+    <!-- <div class="container"> -->
+    <!-- <div class="row poca-portfolio"> -->
 
-        <!-- Single gallery Item -->
-        <!-- <div class="col-12 col-md-6 single_gallery_item entre wow fadeInUp" data-wow-delay="0.2s">
+    <!-- Single gallery Item -->
+    <!-- <div class="col-12 col-md-6 single_gallery_item entre wow fadeInUp" data-wow-delay="0.2s">
           Welcome Music Area
           <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
             <div class="poca-music-thumbnail">
@@ -271,8 +306,8 @@
           </div>
         </div> -->
 
-        <!-- Single gallery Item -->
-        <!-- <div class="col-12 col-md-6 single_gallery_item entre tutor wow fadeInUp" data-wow-delay="0.2s">
+    <!-- Single gallery Item -->
+    <!-- <div class="col-12 col-md-6 single_gallery_item entre tutor wow fadeInUp" data-wow-delay="0.2s">
           Welcome Music Area
           <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
             <div class="poca-music-thumbnail">
@@ -302,8 +337,8 @@
           </div>
         </div> -->
 
-        <!-- Single gallery Item -->
-        <!-- <div class="col-12 col-md-6 single_gallery_item media wow fadeInUp" data-wow-delay="0.2s">
+    <!-- Single gallery Item -->
+    <!-- <div class="col-12 col-md-6 single_gallery_item media wow fadeInUp" data-wow-delay="0.2s">
           Welcome Music Area
           <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
             <div class="poca-music-thumbnail">
@@ -333,8 +368,8 @@
           </div>
         </div> -->
 
-        <!-- Single gallery Item -->
-        <!-- <div class="col-12 col-md-6 single_gallery_item media wow fadeInUp" data-wow-delay="0.2s">
+    <!-- Single gallery Item -->
+    <!-- <div class="col-12 col-md-6 single_gallery_item media wow fadeInUp" data-wow-delay="0.2s">
           Welcome Music Area
           <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
             <div class="poca-music-thumbnail">
@@ -364,8 +399,8 @@
           </div>
         </div> -->
 
-        <!-- Single gallery Item -->
-        <!-- <div class="col-12 col-md-6 single_gallery_item tech tutor wow fadeInUp" data-wow-delay="0.2s">
+    <!-- Single gallery Item -->
+    <!-- <div class="col-12 col-md-6 single_gallery_item tech tutor wow fadeInUp" data-wow-delay="0.2s">
           Welcome Music Area
           <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
             <div class="poca-music-thumbnail">
@@ -395,8 +430,8 @@
           </div>
         </div> -->
 
-        <!-- Single gallery Item -->
-        <!-- <div class="col-12 col-md-6 single_gallery_item tech wow fadeInUp" data-wow-delay="0.2s">
+    <!-- Single gallery Item -->
+    <!-- <div class="col-12 col-md-6 single_gallery_item tech wow fadeInUp" data-wow-delay="0.2s">
           Welcome Music Area
           <div class="poca-music-area style-2 d-flex align-items-center flex-wrap">
             <div class="poca-music-thumbnail">
@@ -426,16 +461,9 @@
           </div>
         </div> -->
 
-      
-
-      <!-- </div> -->
+    <!-- </div> -->
     <!-- </div>  -->
-    
 
-     
-  
-        
-      
     <!-- 
     <div class="container">
       <div class="row">
@@ -512,7 +540,6 @@
               <h6>Most popular Canadian Tamil Radio</h6>
             </div>
           </div>
-          
         </div>
       </div>
     </section>
@@ -527,8 +554,6 @@
             <div class="single-footer-widget mb-15">
               <!-- Widget Title -->
               <!-- <h4 class="widget-title">About Us</h4> -->
-
-             
             </div>
           </div>
 
@@ -588,9 +613,20 @@
             <div class="single-footer-widget mb-15">
               <!-- App Download Button -->
               <div class="app-download-button mt-30">
-                <a target="_blank" href="https://tunein.com/radio/KARTHIGAI-FM-s249446/"><img src="./img/core-img/tunein.png"  alt="" style="border-radius: 4px;" /></a>
-                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.karthigaifm.canada" target="_blank"><img
-                    src="./img/core-img/google-play.png" alt="" /></a>
+                <a
+                  target="_blank"
+                  href="https://tunein.com/radio/KARTHIGAI-FM-s249446/"
+                  ><img
+                    src="./img/core-img/tunein.png"
+                    alt=""
+                    style="border-radius: 4px;"
+                /></a>
+                <a
+                  target="_blank"
+                  href="https://play.google.com/store/apps/details?id=com.karthigaifm.canada"
+                  target="_blank"
+                  ><img src="./img/core-img/google-play.png" alt=""
+                /></a>
               </div>
             </div>
           </div>
@@ -610,5 +646,31 @@
     <script src="js/poca.bundle.js"></script>
     <!-- Active js -->
     <script src="js/default-assets/active.js"></script>
+
+    <script>
+  
+      $("document").ready(function(){
+
+        $(".stream").on("change", function () {
+
+          var selectedVal = $(this).find(':selected').val();
+
+          if (selectedVal === '64') {
+              $('.st-128').css("display", "none");
+              $('.st-64').css("display", "");
+          }
+
+          else if (selectedVal === '128') {
+
+            $('.st-64').css("display", "none");
+            $('.st-128').css("display", "");
+
+          }
+        });
+      })
+      
+
+ 
+    </script>
   </body>
 </html>
